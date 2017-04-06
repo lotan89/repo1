@@ -1,0 +1,35 @@
+git and GitHub commands:
+
+1.
+#checking the if git installed or the version
+git --version
+
+2.
+#add GitHub email and name
+git config --global user.email "put your email"
+git config --global user.name "put your name"
+
+3.
+#add file or folder to git:
+cd /user/...name of folder
+#to start git on folder
+git init
+#checking the status of the repository
+
+# adding file to the stage
+git add "file name"
+#commit the staging
+git commit -m "put a message to the file"
+
+# git add all the files
+git add .
+# git add all the files from specific type
+git add *.txt
+
+4.
+# adding a repository from remote site
+git remote add origin "internet address"
+git push -u origin master
+
+# to checking the file on the repository
+git log
